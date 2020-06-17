@@ -126,9 +126,11 @@ public class MainServer {
 	    controller.entregaProjeto();
 	    controller.ativarUsuario();
 	    controller.listAlunos();
+	    controller.buscaMedalhas();
 	    
 	    //validacao alunos
 	    controller.validaAluno();
 	    controller.loginAluno();
+	    controller.getAlunoByEmail();
     }
 }

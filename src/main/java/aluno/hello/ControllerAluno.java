@@ -211,6 +211,14 @@ public class ControllerAluno {
 		});
 	}
 	
+	public void getAlunoByEmail() {
+		get("/buscarAluno/:email", (req, res) -> {
+			String email = req.params("email");
+			Document aluno = model.procurarEmail(email); 
+			return aluno != null ? aluno.toJson() : "{}";
+		});
+	}
+	
 	public void entregaProjeto() {
 		post("/entregar", (req, res) -> {
 			System.out.println("test");
@@ -223,6 +231,12 @@ public class ControllerAluno {
 			Document now = model.getProject(id);
 			return model.submitProject(id, now, alunos, descricao, linkGitHub);
 		});
-	}	
+	}
+	
+	public void buscaMedalhas() {
+		get("/buscarmedalha/:email", (request, respose) -> {
+			return model.buscarMedalhasPorAluno(request.params("email"));
+		});
+	}
 	
 }
