@@ -21,8 +21,7 @@
 
     	<div class="navbar-buttons">
 			<button onclick="window.location.href = 'principal.html'" class="button profile">Início</button>
-		  	<button onclick="" class="button profile">Perfil</button>
-	    <button class="button logout">Sair</button>
+	    	<button onclick="abrePopupLogin(event)" class="button logout">Sair</button>
     </div>
   </div>
   <div class="profile-wrapper">
@@ -45,6 +44,20 @@
 		  </div>
   	</div>
   </div>
+  <div id="login" class="modal">
+    <div class="modal-content animate">
+      <div class="imgcontainer">
+        <h2>Deseja realmente sair?</h2>
+        <span onclick="fechaPopupLogin(event)" class="close" title="Close Modal">&times;</span>
+      </div>
+
+      <div class="container text-center">
+        <button id=sair type="button" class="btn btn-danger botao" >Sair</button>
+        <button type="button" class="btn btn-secondary botao" onclick="fechaPopupLogin(event)">Cancelar</button> 
+     </div>
+    </div>
+  </div>
   <script src="js/profile.js"></script>
+  <script src="js/login.js"></script>
 </body>
 </html>
