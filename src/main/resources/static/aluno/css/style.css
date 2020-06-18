@@ -3,8 +3,17 @@
 @import url("cadastro.css");
 @import url("index.css");
 @import url("login.css");
+
 body{
 	margin: 0px;
 	padding: 0px;
 	font-family: 'Roboto', sans-serif;
+}
+
+.logout-modal {
+	max-width: 25%;
+}
+
+.mb-10 {
+	margin-bottom: 10px;
 }
