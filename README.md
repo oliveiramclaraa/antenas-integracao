@@ -31,8 +31,11 @@ Equipe de alunos:
 * Ajustes no template do perfil Aluno
 
 # 2ª quinzena de junho
+* Adição de popup de logout
+* Apresentação e validação das funcionalidades criadas
 
 # 1ª quinzena de julho
+* Documentação
 
 ___
 Esta é a parte do Empresário do Projeto Antenas
