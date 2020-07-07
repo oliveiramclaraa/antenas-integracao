@@ -12,6 +12,14 @@ Equipe de alunos:
 # 1ª quinzena de maio
 * criação de modal para atribuição de medalhas ('Avaliar aluno')
 
+# 2ª quinzena de maio
+
+# 1ª quinzena de junho
+
+# 2ª quinzena de junho
+
+# 1ª quinzena de julho
+
 ___
 Esta é a parte do Empresário do Projeto Antenas
 
