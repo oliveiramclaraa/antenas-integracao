@@ -13,6 +13,11 @@ Equipe de alunos:
 * criação de modal para atribuição de medalhas ('Avaliar aluno')
 
 # 2ª quinzena de maio
+* alteração do layout do modal de medalhas
+* composição do Document de medalhas
+* Inclusão de alertas no corpo do modal, bem como o respectivo estilo ao css - excluindo alertas popups
+* Inclusão de dropdown com nome dos alunos para seleção
+* Incluão do endpoint de listagem de alunos ao MainServer
 
 # 1ª quinzena de junho
 
