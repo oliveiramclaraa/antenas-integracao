@@ -20,6 +20,15 @@ Equipe de alunos:
 * Incluão do endpoint de listagem de alunos ao MainServer
 
 # 1ª quinzena de junho
+* Adição de endpoints para recuperação de aluno
+* Adição de método e endpoint de inclusão de medalhas no módulo Professor, e inclusão no MainServer
+* Adição de método e endpoint de inclusão de competências ao módulo Professor, e inclusão no MainServer
+* Adição de método e endpoint de listagem de competências ao módulo Professor, e inclusão no MainServer
+* Adição dos endpoints de criação de medalhas ao template do perfil Professor
+* Inclusão de regra proibindo criação de competência existente
+* Alteração do endpoint de recuperação de aluno para alterar o parâmetro de id para email
+* Adição do endpoint para listagem de medalhas
+* Ajustes no template do perfil Aluno
 
 # 2ª quinzena de junho
 
